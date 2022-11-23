@@ -1,11 +1,11 @@
 --Start Lib
-local Library           = loadstring(game:HttpGet("https://raw.githubusercontent.com/zachtheguerro/droplib/main/Lib"))();
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zachtheguerro/droplib/main/Lib"))();
 
 --New WIndow
-local MainWindow        = Library:CreateWindow("Main");
+local MainWindow = Library:CreateWindow("Main");
 
 --New Folder
-local Folder      = MainWindow:AddFolder("Combat");
+local Folder = MainWindow:AddFolder("Combat");
 
 --New Toggle
 Folder:AddToggle({text = "Toggle", flag = "", state = false, callback = function(state)
