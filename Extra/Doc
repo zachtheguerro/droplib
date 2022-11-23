@@ -8,7 +8,7 @@ local MainWindow        = Library:CreateWindow("Main");
 local Folder      = MainWindow:AddFolder("Combat");
 
 --New Toggle
-Folder:AddToggle({text        = "Toggle", flag        = "", state       = false, callback    = function(state)
+Folder:AddToggle({text = "Toggle", flag = "", state = false, callback = function(state)
             
 end})
 
