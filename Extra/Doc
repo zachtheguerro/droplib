@@ -28,7 +28,7 @@ Folder:AddSlider({text = "Slider", flag = "", min = 12, max = 42, float = 1, val
 end})
 
 --New ColorPicker
-Folder:AddColor({text = "Color", flag = "Aimbot FOV Color", color = Color3.fromRGB(255, 255, 255), callback = function(Color)
+Folder:AddColor({text = "Color", flag = "", color = Color3.fromRGB(255, 255, 255), callback = function(Color)
 
 end})
 
