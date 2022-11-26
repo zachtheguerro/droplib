@@ -13,7 +13,7 @@ Folder:AddToggle({text = "Toggle", flag = "", state = false, callback = function
 end})
 
 --New Bind
-Folder:AddBind({text = "KeyBind", flag = "", key = Enum.UserInputType.MouseButton2, hold = true, callback = function(Value)
+Folder:AddBind({text = "KeyBind", flag = "", key = Enum.UserInputType.MouseButton2, hold = true, callback = function(Bool)
 
 end})
 
@@ -28,12 +28,12 @@ Folder:AddSlider({text = "Slider", flag = "", min = 12, max = 42, float = 1, val
 end})
 
 --New ColorPicker
-Folder:AddColor({text = "Color", flag = "Aimbot FOV Color", color = Color3.fromRGB(255, 255, 255), callback = function(color)
+Folder:AddColor({text = "Color", flag = "Aimbot FOV Color", color = Color3.fromRGB(255, 255, 255), callback = function(Color)
 
 end})
 
 --New TextBox
-Folder:AddBox({text = "TextBox", value = "", callback = function(text)
+Folder:AddBox({text = "TextBox", value = "", callback = function(Text)
 
 end})
 
