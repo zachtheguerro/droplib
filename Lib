@@ -17,13 +17,13 @@ local whitelistedMouseinputs = {
 }
 
 --Functions
-local function library:Unload()
-        for Flag, Value in pairs(Library.flags) do
-            if typeof(Value) == "boolean" then
-                Library.flags[Flag] = false
-            end
+library:Unload = function()
+    for Flag, Value in pairs(Library.flags) do
+        if typeof(Value) == "boolean" then
+            Library.flags[Flag] = false
         end
-        Library.base:Destroy()
+    end
+    Library.base:Destroy()
 end
 
 local function round(num, bracket)
