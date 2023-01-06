@@ -17,15 +17,6 @@ local whitelistedMouseinputs = {
 }
 
 --Functions
-library:Unload = function()
-    for Flag, Value in pairs(Library.flags) do
-        if typeof(Value) == "boolean" then
-            Library.flags[Flag] = false
-        end
-    end
-    Library.base:Destroy()
-end
-
 local function round(num, bracket)
 	bracket = bracket or 1
 	local a = math.floor(num/bracket + (math.sign(num) * 0.5)) * bracket
